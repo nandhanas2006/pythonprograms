@@ -7,18 +7,20 @@ t.color("white")
 for i in range(3):
     t.fd(300)
     t.rt(-120)
+t.penup()
+t.fd(-250)
+t.pendown()
 
-t.fd(-200)
 
 for i in range(3):
     t.fd(200)
     t.rt(-120)
-
-t.fd(-100)
-
+t.penup()
+t.fd(-150)
+t.pendown()
 for i in range(3):
+    
     t.fd(100)
     t.rt(-120)
+   
 t.done()
- 
-
